@@ -4,24 +4,23 @@ margin: 0;
 box-sizing: border-box;
 font-family: "Poppins", sans-serif;
 }
+
 :root {
     --theme-color: #5074f3;
   }
 
-body {
+  body {
     background-color: var(--theme-color);
     display: grid;
     place-items: center;
-    height: 100vh;
-    
+    height: 100vh;  
 }
-.container {
-   
+
+.container { 
     width: 90%;
     max-width: 25em;
-    
-   
 }
+
 .container h1{
     display: grid;
     place-content: center;
@@ -29,25 +28,20 @@ body {
     padding-top:2em;
 }
 
-
 h1 span {
     background-color: whitesmoke;
     line-height: 2em;
     padding: 0 0.5em;
     border-radius: 0.2em;
-
 }
 
 .card {
-   
     background-color: #ffffff;
     width: 100%;
     padding: 4em 0;
     text-align:center;
     border-radius: 0.5em
-       
 }
-
 
 .card .img-container {
     height: 11.25em;
@@ -57,27 +51,26 @@ h1 span {
     background-color: var(--theme-color); 
     border-radius: 50%;
     box-shadow: 0 0 0 0.3em #ffffff, 0 0 0 0.5em white;
-     border-radius: 50%
-
+    border-radius: 50%;
 }
+
 .img-container img {
     width:100%;
-    border-radius: 50%
-
+    border-radius: 50%;
 }
 
 .card h2{
     padding: 1.5em 0 0.5em 0;
 
 }
+
 .card h3, 
 .card p {
     font-size: 0.8em;
     padding: 0.2em 0;
     font-weight: 400;
     letter-spacing: 0.02em;
-        color: #6d6d76;
-
+    color: #6d6d76;
 }
 
 .card i {
@@ -99,8 +92,8 @@ h1 span {
     cursor: pointer;
     margin-bottom: 5em;
 }
+
 button:hover{
     transform: scale(1.05) ;
     box-shadow: -1px 0px 15px -3px
-
 }
